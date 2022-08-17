@@ -1,5 +1,5 @@
 <?php
-function blackCoffeeMake()
+function makeBlackCoffee()
 {
 
     $coffee = 0; //0ならコーヒーが入っていない状態
@@ -17,4 +17,4 @@ function blackCoffeeMake()
     echo "コーヒーができました";
 }
 
-blackCoffeeMake();
+makeBlackCoffee();
