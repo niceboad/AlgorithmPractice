@@ -2,12 +2,12 @@
 function automaticDoor()
 {
     $openOrCloseDoor = 0; //0ならドアが閉まっている状態。1ならドアが開いている状態。
-    $openOrCloseDoor += 1;
+    $openOrCloseDoor += 1; //ドアが開く状態にする。
     if ($openOrCloseDoor == 1) {
         echo "開くボタンが押されました。", PHP_EOL;
         echo "ドアが開きました。", PHP_EOL;
     }
-    $openOrCloseDoor -= 1;
+    $openOrCloseDoor -= 1; //ドアが閉まる状態にする。
 
     if ($openOrCloseDoor == 0) {
         echo "ドアが閉まります。", PHP_EOL;
